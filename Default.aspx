@@ -3,22 +3,30 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>COMP488 RAD.NET Fall 2017</h1>
-        <h2>Stock Trading Project Assignment</h2>
+        <h2>COMP488 RAD.NET Fall 2017</h2>
+        <h3>Stock Trading Project Assignment</h3>
         <p class="lead">This is the very beginning of the Stock Trading Web application created using ASP.NET technologies</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h4>Getting started</h4>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                This section lets a user to input a ticker symbol at get a current quote
             </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+            <!-- ticker input article -->
+            <article class="get-quote">
+                <h5>Type a ticker symbol to get a quote:</h5>
+                <input type="text" name="ticker" title="ticker"><br>
+                <button>Get quote &raquo;</button>
+            </article>
+
+            <!-- output article -->
+            <article class="render-quote"></article>
+                
+            
+            
         </div>
         <div class="col-md-4">
             <h2>Get more libraries</h2>
@@ -39,4 +47,5 @@
             </p>
         </div>
     </div>
+    <script type="text/javascript" src="../scripts/getquote.js"></script>
 </asp:Content>
