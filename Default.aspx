@@ -8,7 +8,6 @@
         <p class="lead">This is the very beginning of the Stock Trading Web application created using ASP.NET technologies</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
-
     <div class="row">
         <div class="col-md-4">
             <h4>Getting started</h4>
@@ -18,15 +17,15 @@
             <!-- ticker input article -->
             <article class="get-quote">
                 <h5>Type a ticker symbol to get a quote:</h5>
-                <input type="text" name="ticker" title="ticker"><br>
-                <button>Get quote &raquo;</button>
+                <input id="Ticker" type="text" size="6" runat="server"><br>
+                <!-- <button>Get quote &raquo;</button> -->
+                
+                <!-- <asp:button id="Ticker_btn" OnServerClick="GetQuotes" runat="server" Text="Get Quote"/> -->
+             
             </article>
 
             <!-- output article -->
-            <article class="render-quote"></article>
-                
-            
-            
+            <article class="render-quote"></article>           
         </div>
         <div class="col-md-4">
             <h2>Get more libraries</h2>
@@ -47,5 +46,5 @@
             </p>
         </div>
     </div>
-    <script type="text/javascript" src="../scripts/getquote.js"></script>
+    <!-- <script type="text/javascript" src="../scripts/getquote.js"></script> -->
 </asp:Content>
