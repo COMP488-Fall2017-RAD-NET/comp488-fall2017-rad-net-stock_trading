@@ -19,10 +19,11 @@ public partial class Default2 : System.Web.UI.Page
     
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!SetDatabaseConnection())
+        // uncomment when necessary..
+        /*if (!SetDatabaseConnection())
         {
             Response.Write("<script>alert(\'Database connection failed\')</script>");
-        }
+        }*/
     }
     
     protected void GetQuote_Click(object sender, EventArgs e)
