@@ -1,0 +1,1 @@
+This is a clone of the Bitbucket repository. The work in this repo has been stopped and is not completed. The completed project is in the [Stock_Trading_Project](https://github.com/COMP488-Fall2017-RAD-NET/Stock_Trading_Project)
